@@ -128,8 +128,9 @@ const HomeDemo = () => {
                                     <li className="cartSearch">
                                         <CiSearch />
                                     </li>
-                                    <li className="cartSearch">
+                                    <li className="cartSearch cartNumber">
                                         <HiOutlineShoppingCart />
+                                        <span>0</span>
                                     </li>
                                     <li className="adMinBtn">
                                         <CiUser className="navhvr" />
