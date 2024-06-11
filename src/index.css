@@ -5,13 +5,23 @@
 
 :root {
   font-family: "euclid circular";
+  --bg: #F5F8FE;
   --fontColor: #ffffffab;
+  --navFontColor: #192335;
+  --middleHeaderBG: #FFFFFF;
+  --HeaderAdminBtn: rgb(0 0 0 / 4%);
+  --colorPrimary: #0d6efd;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  min-height: 100vh;
 }
 
 li {

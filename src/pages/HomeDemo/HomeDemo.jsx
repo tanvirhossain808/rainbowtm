@@ -2,6 +2,10 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import "./HomeDemo.css"
 import { FaChevronDown, FaFacebookF, FaInstagramSquare, FaPhoneAlt, FaTwitter } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
+import { Link } from "react-router-dom";
+import { IoGridOutline } from "react-icons/io5";
+import { CiSearch, CiUser } from "react-icons/ci";
+import { HiOutlineShoppingCart } from "react-icons/hi";
 
 const HomeDemo = () => {
     return (
@@ -73,6 +77,70 @@ const HomeDemo = () => {
                                         <FaChevronDown />
                                     </span>
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="middleHeader">
+                    <div className="middleHeaderContainer container">
+                        <div className="middleHeaderDetails mainMenu">
+                            <div className="headerLogo">
+                                <Link to="/">
+                                    <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/02/logo.png" alt="hit study" width={50} height={50} />
+                                </Link>
+                                <div className="headerCategory categoryBtn">
+                                    <IoGridOutline />
+                                    <span>Category</span>
+                                </div>
+                            </div>
+                            <div className="headerNavMenu">
+                                <nav>
+                                    <ul>
+                                        <li className="navHover">
+                                            Demos
+                                            <FaChevronDown />
+                                        </li>
+                                        <li className="navHover">
+                                            Courses
+                                            <FaChevronDown />
+                                        </li>
+                                        <li className="navHover">
+                                            Pages
+                                            <FaChevronDown />
+                                        </li>
+                                        <li className="navHover">
+                                            Elements
+                                            <FaChevronDown />
+                                        </li>
+                                        <li className="navHover">
+                                            Blog
+                                            <FaChevronDown />
+                                        </li>
+                                        <li className="navHover">
+                                            Help
+                                            <FaChevronDown />
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div className="middleHeaderRight">
+                                <ul>
+                                    <li className="cartSearch">
+                                        <CiSearch />
+                                    </li>
+                                    <li className="cartSearch">
+                                        <HiOutlineShoppingCart />
+                                    </li>
+                                    <li className="adMinBtn">
+                                        <CiUser className="navhvr" />
+                                        <span className="navhvr">Admin</span>
+                                    </li>
+                                </ul>
+                                <div className="headerCourseEnrBtn">
+                                    <a href="https://themeforest.net/checkout/102753572/create_account" target="_blank">
+                                        <span>Enroll now</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
