@@ -1,0 +1,82 @@
+.topHeaderContainer {
+    background-color: #192335;
+}
+
+.topHeader {
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+    height: 100%;
+    color: var(--fontColor);
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1320px;
+}
+
+.topHeader li {
+    margin: 2px 7px;
+}
+
+.topHeader a {
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.topHeaderInfo {
+    display: flex;
+    align-items: center;
+    flex-basis: 33.3333%;
+    height: 100%;
+}
+
+.topHeader :first-child li a :first-child {
+    margin-right: 10px;
+
+}
+
+.topHeaderInfo span,
+.topHeaderRightInfo ul {
+    display: flex;
+    align-items: center;
+}
+
+.topHeaderInfo ul li a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.topHeaderMiddleInfo {
+    justify-content: center;
+}
+
+.topHeaderRightInfo {
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.topHeaderLine {
+    height: 20px;
+    width: 1px;
+    background-color: var(--fontColor);
+    margin: 0 10px;
+
+}
+
+.topHeaderLan {
+    display: flex;
+    gap: 10px;
+}
+
+.topHeaderMiddleInfo :last-child {
+    margin-left: 7px;
+}
