@@ -76,14 +76,19 @@
 .topHeaderLan {
     display: flex;
     gap: 10px;
+    min-width: 170px;
 
 }
 
 .topHeaderLan div {
     display: flex;
+    cursor: pointer;
     /* align-items: center; */
     gap: 4px;
     position: relative;
+    /* visibility: hidden; */
+    /* display: none; */
+
 }
 
 .topHeaderLan div ul {
@@ -99,6 +104,10 @@
     border-radius: 6px;
     padding: 2px 10px;
     color: #ffffffab;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s linear;
+    /* display: none; */
 }
 
 .topHeaderLan div li {
@@ -113,8 +122,8 @@
     padding: 4px 12px;
     font-weight: 600;
     color: var(--color-body);
-    transition: var(--transition-4);
-
+    /* transition: var(--transition-4); */
+    /* transition: .4s linear; */
 }
 
 .topHeaderLan div li:hover {
@@ -124,10 +133,43 @@
 
 }
 
+.topHeaderLan div:hover ul {
+    visibility: visible;
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.topHeaderLan div:hover .iconRotate {
+
+    /* animation-name: iconRotate;
+    animation-duration: .4s;
+    animation-fill-mode: forwards; */
+    transform: rotate(180deg);
+}
+
+.iconRotate {
+    transition: .2s ease-in-out;
+}
+
 .topHeader .currency ul {
     min-width: 100px;
+    margin-left: -30px;
 
+}
 
+.topHeader .language ul,
+.topHeader .currency ul {
+    padding: 12px 12px;
+    box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+    margin-right: 30px;
+    /* background-color: red; */
+    /* display: none; */
+    /* background-color: red; */
+}
+
+.topHeader .language ul {
+    min-width: 170px;
 }
 
 .topHeaderLan div li img {
@@ -187,8 +229,8 @@
 
 .middleHeaderRight .cartNumber span {
     position: absolute;
-    top: -15px;
-    left: 1px;
+    top: -3px;
+    right: 3px;
     border-radius: 10px;
     min-width: 16px;
     height: 16px;
@@ -226,14 +268,13 @@
 
 .middleHeader .middleHeaderRight ul {
     padding-right: 20px;
-    gap: 15px;
+    gap: 40px;
 }
 
 .middleHeader .middleHeaderRight ul :last-child {
     display: flex;
     align-items: center;
     gap: 10px;
-    position: relative;
 }
 
 .middleHeader .middleHeaderRight .adMinBtn::before {
@@ -265,7 +306,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.4s;
+    transition: 0.4s linear;
 }
 
 .cartSearch:hover {
@@ -279,6 +320,15 @@
     color: var(--navFontColor);
 }
 
+.heroSection {
+    background-image: url("https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/06/bg-g1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
 @keyframes marquee {
     from {
         transform: translateX(100%);
@@ -287,4 +337,69 @@
     to {
         transform: translateX(-150%);
     }
+}
+
+.hey {
+    position: absolute;
+    background-color: red;
+    width: 39px;
+    height: 39px;
+    right: 0;
+    top: 105%;
+    /* height: 300px; */
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+
+}
+
+.thumbNails {
+    display: grid;
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    background-color: #282b30;
+    padding: 40px;
+    color: #ffffff;
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+
+.thumbNail a {
+    color: inherit;
+}
+
+.thumbNail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* header:hover .hey {
+    visibility: visible;
+    opacity: 1;
+    animation-name: increaseHeight;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    display: flex;
+    align-items: flex-end;
+
+
+
+} */
+
+
+@keyframes increaseHeight {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+
+header {
+    position: relative;
+    z-index: 400;
 }
