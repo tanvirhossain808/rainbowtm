@@ -64,19 +64,39 @@ const HomeDemo = () => {
                             </div>
                             <div className="topHeaderLine"></div>
                             <div className="topHeaderLan">
-                                <a>
+                                <div>
                                     <img src="https://rainbowthemes.net/themes/histudy/wp-content/themes/histudy/assets/images/icons/en-us.png" alt="" />
                                     <span>English</span>
                                     <span>
                                         <FaChevronDown />
                                     </span>
-                                </a>
-                                <a>
+                                    <ul>
+                                        <li>
+                                            <img src="	https://rainbowthemes.net/themes/histudy/wp-content/themes/histudy/assets/images/icons/fr.png" alt="franceFlag" />
+                                            <span>Français</span>
+                                        </li>
+                                        <li>
+                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/themes/histudy/assets/images/icons/de.png" alt="=dutchFlag" />
+                                            <span>
+                                                Deutsch
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="currency">
                                     <span>USD</span>
                                     <span>
                                         <FaChevronDown />
                                     </span>
-                                </a>
+                                    <ul>
+                                        <li>
+                                            <span>EUR</span>
+                                        </li>
+                                        <li>
+                                            <span>GBP</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -11,6 +11,10 @@
   --middleHeaderBG: #FFFFFF;
   --HeaderAdminBtn: rgb(0 0 0 / 4%);
   --colorPrimary: #0d6efd;
+  --blackOpacity: rgb(0 0 0 / 4%);
+  --transition-4: all .25s cubic-bezier(.645, .045, .355, 1);
+  --color-body: #6b7385;
+
 }
 
 * {
