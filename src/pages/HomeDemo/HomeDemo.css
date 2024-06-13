@@ -14,10 +14,10 @@
 
 }
 
-.container {
+/* .container {
     max-width: 1320px;
     margin: 0 auto;
-}
+} */
 
 .topHeader li {
     margin: 2px 7px;
@@ -285,9 +285,9 @@
 .headerNavMenu .demosContainer:hover .thumbNails {
     visibility: visible;
     opacity: 1;
-    background-color: red;
+    background-color: #273041;
     animation-name: increaseHeight;
-    animation-duration: 2s;
+    animation-duration: .3s;
     animation-fill-mode: forwards;
 }
 
@@ -320,14 +320,6 @@
     overflow: hidden;
 }
 
-.navHover .thumbNails {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    visibility: hidden;
-    opacity: 0;
-}
-
 .navHover:hover {
     color: var(--colorPrimary);
 }
@@ -352,6 +344,7 @@
     animation: marquee 2s linear infinite;
     color: var(--navFontColor);
 }
+
 
 .heroSection {
     background-image: url("https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/06/bg-g1.webp");
@@ -386,15 +379,25 @@
 }
 
 .thumbNails {
+    margin: 0px 30px;
     display: grid;
-    width: 100%;
     overflow: hidden;
+    width: calc(100vw-30px);
+    height: 0;
+    padding: 40px;
+    overflow: hidden;
+    padding: 40px;
     grid-template-columns: repeat(6, 1fr);
     gap: 25px;
     background-color: #282b30;
-    padding: 40px;
     color: #ffffff;
-    /* grid-template-rows: repeat(3, 1fr); */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .thumbNail a {
@@ -447,9 +450,9 @@
 } */
 .demos:hover {
     height: 100%;
-    animation: increaseHeight;
+    /* animation: increaseHeight;
     animation-fill-mode: forwards;
-    animation-duration: .4s;
+    animation-duration: .4s; */
 
 }
 
@@ -476,14 +479,26 @@
 @keyframes increaseHeight {
     from {
         height: 0%;
+        /* padding: 0%; */
     }
 
     to {
-        height: auto;
+        /* padding: ; */
+        /* height: 599px; */
+        height: 560px;
     }
 }
 
 header {
     position: relative;
     z-index: 400;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .container {
+        margin: 0;
+        width: 100vw;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
