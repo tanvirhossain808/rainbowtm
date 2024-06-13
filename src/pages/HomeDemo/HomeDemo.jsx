@@ -116,7 +116,7 @@ const HomeDemo = () => {
                             <div className="headerNavMenu">
                                 <nav>
                                     <ul>
-                                        <li className="navHover">
+                                        <li className="navHover demos">
                                             Demos
                                             <FaChevronDown />
                                         </li>
@@ -167,7 +167,6 @@ const HomeDemo = () => {
                     </div>
                 </div>
                 <div>
-
                 </div>
                 <div className="thumbNails container">
                     <div className="thumbNail">
@@ -175,11 +174,11 @@ const HomeDemo = () => {
                             <a href="https://rainbowthemes.net/themes/histudy/" target="_blank">
                                 <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h1.webp" alt="Home" />
                             </a>
-                            <a href="">
+                            <a href="https://rainbowthemes.net/themes/histudy/">
                                 <h4 className="content">
                                     Home
-                                    <span><FaArrowRight /></span>
                                 </h4>
+                                <span><FaArrowRight /></span>
                             </a>
                         </div>
                     </div>
@@ -214,8 +213,9 @@ const HomeDemo = () => {
                             </a>
                             <a href="https://rainbowthemes.net/themes/histudy/home-university-classic/" target="_blank">
                                 <h4>University Class</h4>
-                                <a href="https://rainbowthemes.net/themes/histudy/home-university-classic/">
-                                    <FaArrowRight /></a>
+                                <span>
+                                    <FaArrowRight />
+                                </span>
                             </a>
                         </div>
                     </div>

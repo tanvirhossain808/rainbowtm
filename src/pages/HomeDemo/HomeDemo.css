@@ -266,6 +266,10 @@
     cursor: pointer;
 }
 
+.headerNavMenu {
+    height: 100%;
+}
+
 .middleHeader .middleHeaderRight ul {
     padding-right: 20px;
     gap: 40px;
@@ -374,6 +378,58 @@
     height: auto;
     border-radius: 10px;
 }
+
+.thumbNail {
+    position: relative;
+    transition: .4s;
+}
+
+.thumbNail:hover {
+    transform: translateY(-20px);
+}
+
+.thumbNail div a:last-child {
+    font-size: 14px;
+    height: 30px;
+    transition: .4s;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.thumbNail div a:last-child span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+/* .thumbNail div a:last-child {
+    transition: 2s;
+
+
+} */
+.demos:hover {
+    height: 100%;
+    animation: increaseHeight;
+    animation-fill-mode: forwards;
+    animation-duration: .4s;
+
+}
+
+.thumbNail:hover div a:last-child {
+    opacity: 1;
+    /* background-color: red; */
+}
+
 
 /* header:hover .hey {
     visibility: visible;
