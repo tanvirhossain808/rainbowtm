@@ -189,6 +189,11 @@
     color: var(--navFontColor);
     box-shadow: 0px 20px 34px rgba(0, 0, 0, 0.0509803922);
 
+
+}
+
+.middleHeaderContainer {
+    position: relative;
 }
 
 .headerLogo img {
@@ -266,8 +271,24 @@
     cursor: pointer;
 }
 
-.headerNavMenu {
+.headerNavMenu,
+.headerNavMenu nav,
+.headerNavMenu nav li {
     height: 100%;
+}
+
+.headerNavMenu nav li {
+    display: flex;
+    align-items: center;
+}
+
+.headerNavMenu .demosContainer:hover .thumbNails {
+    visibility: visible;
+    opacity: 1;
+    background-color: red;
+    animation-name: increaseHeight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .middleHeader .middleHeaderRight ul {
@@ -297,6 +318,14 @@
     height: 100%;
     background-color: var(--bg);
     overflow: hidden;
+}
+
+.navHover .thumbNails {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .navHover:hover {
@@ -350,7 +379,6 @@
     height: 39px;
     right: 0;
     top: 105%;
-    /* height: 300px; */
     visibility: hidden;
     opacity: 0;
     z-index: 1;
@@ -451,7 +479,7 @@
     }
 
     to {
-        height: 100%;
+        height: auto;
     }
 }
 

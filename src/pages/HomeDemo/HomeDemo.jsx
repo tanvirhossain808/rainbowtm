@@ -116,9 +116,240 @@ const HomeDemo = () => {
                             <div className="headerNavMenu">
                                 <nav>
                                     <ul>
-                                        <li className="navHover demos">
+                                        <li className="navHover demosContainer">
                                             Demos
                                             <FaChevronDown />
+                                            <div className="thumbNails container">
+                                                <div className="thumbNail">
+                                                    <div className="demos">
+                                                        <a href="https://rainbowthemes.net/themes/histudy/" target="_blank">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h1.webp" alt="Home" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/">
+                                                            <h4 className="content">
+                                                                Home
+                                                            </h4>
+                                                            <span><FaArrowRight /></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="marketPlace">
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-marketplace/" target="_blank">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h12.webp" alt="market place" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-marketplace/">
+                                                            <h4>Market place</h4>
+                                                            <span><FaArrowRight /></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="kintergarten">
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-kindergarden/">
+                                                            <img src="	https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h4.webp" alt="kindergarten" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-kindergarden/" target="_blank">
+                                                            <h4>
+                                                                kintergarten
+                                                            </h4>
+                                                            <span><FaArrowRight /></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="universityClass">
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-university-classic/" target="_blank">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h13.webp" alt="university class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-university-classic/" target="_blank">
+                                                            <h4>University Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-elegant/" target="_blank">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h14.webp" alt="Home elegant" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-elegant/">
+                                                            <h4>Home Elegant</h4>
+                                                            <span><FaArrowRight /></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="gymCoaching">
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-elegant/" alt="Gym Coaching">
+                                                            <img src="	https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h9.webp" alt="
+                                Gym Coaching" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-elegant/" alt="Gym Coaching" target="_blank">
+                                                            <h4>Gym Coaching</h4>
+                                                            <span><FaArrowRight /></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="thumbNail">
+                                                    <div className="onlineClass">
+                                                        <a href="">
+                                                            <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/h3.webp" alt="Online class" />
+                                                        </a>
+                                                        <a href="https://rainbowthemes.net/themes/histudy/home-online-school/">
+                                                            <h4 className="title">Online Class</h4>
+                                                            <span>
+                                                                <FaArrowRight />
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li className="navHover">
                                             Courses
@@ -168,7 +399,8 @@ const HomeDemo = () => {
                 </div>
                 <div>
                 </div>
-                <div className="thumbNails container">
+                {/* remove */}
+                {/* <div className="thumbNails container">
                     <div className="thumbNail">
                         <div className="demos">
                             <a href="https://rainbowthemes.net/themes/histudy/" target="_blank">
@@ -398,7 +630,7 @@ const HomeDemo = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </header >
             <main className="">
                 <div className="container">
