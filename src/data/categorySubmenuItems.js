@@ -80,3 +80,84 @@ export const artHumanities = [
         id: 16
     }
 ]
+
+export const bitCoinsForms = [
+    {
+        name: "Bitcoin Development",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/bitcoin-development/?tutor-course-filter-category=150",
+        id: 1
+    },
+    {
+        name: "Bitcoin Fundamentals",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/bitcoin-mining/?tutor-course-filter-category=139",
+        id: 2
+    },
+    {
+        name: "Bitcoin Mining",
+        src: "ttps://rainbowthemes.net/themes/histudy/course-category/bitcoin-mining/?tutor-course-filter-category=139",
+        id: 3
+    },
+    {
+        name: "Bitcoin vs. Ethereum",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/blockchain-technology/?tutor-course-filter-category=138",
+        id: "4"
+    },
+    {
+        name: "Blockchain Technology",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/blockchain-technology/?tutor-course-filter-category=138",
+        id: "5"
+    },
+    {
+        name: "Cryptocurrencies",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/market-analysis/?tutor-course-filter-category=141",
+        id: 6,
+    },
+    {
+        name: "Market Analysis",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/nft-valuation/?tutor-course-filter-category=105",
+        id: 7
+    },
+    {
+        name: "NFT Valuation",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/nft-valuation/?tutor-course-filter-category=105",
+        id: 8
+    },
+    {
+        name: "Price Volatility",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/price-volatility/?tutor-course-filter-category=142",
+        id: 9
+    },
+    {
+        name: "Supply and Demand",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/taxation-of-bitcoin/?tutor-course-filter-category=147",
+        id: 10
+    },
+    {
+        name: "Taxation of Bitcoin",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/taxation-of-bitcoin/?tutor-course-filter-category=147",
+        id: 11,
+    },
+    {
+        name: "Transaction Confirmation",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/transaction-confirmation/?tutor-course-filter-category=146",
+        id: 12,
+
+    },
+    {
+        name: "Transaction Fees",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/transaction-fees/?tutor-course-filter-category=145",
+        id: 13,
+    },
+    {
+        name: "Transaction Process",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/transaction-process/?tutor-course-filter-category=144",
+        id: 14
+    },
+    {
+        name: "Wallets and Addresses",
+        src: "https://rainbowthemes.net/themes/histudy/course-category/wallets-and-addresses/?tutor-course-filter-category=140",
+        id: 15
+    }
+]
+
+

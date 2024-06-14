@@ -1,5 +1,5 @@
 import "./HomeCategory.css"
-import { artHumanities } from "../../../data/categorySubmenuItems";
+import { artHumanities, bitCoinsForms } from "../../../data/categorySubmenuItems";
 import SubmenuItems from "../SubmenuItems/SubmenuItems";
 const HomeCategory = () => {
     return (
@@ -16,7 +16,14 @@ const HomeCategory = () => {
                         </div>
                     </li>
                     <li>
-                        <a href="https://rainbowthemes.net/themes/histudy/course-category/bitcoin-forums/?tutor-course-filter-category=107">Bitcoin Forums</a></li>
+                        <a href="https://rainbowthemes.net/themes/histudy/course-category/bitcoin-forums/?tutor-course-filter-category=107">Bitcoin Forums</a>
+                        <div className="dropDownCategoryList">
+                            <h3 className="rbt-short-title">Category Submenu Items</h3>
+                            <div className="child-inner">
+                                {bitCoinsForms.map((item) => <SubmenuItems key={item.id} name={item.name} src={item.src} />)}
+                            </div>
+                        </div>
+                    </li>
                     <li>
                         <a href="https://rainbowthemes.net/themes/histudy/course-category/cardiovascular-training/?tutor-course-filter-category=82">Cardiovascular Training</a>
                     </li>
@@ -31,6 +38,13 @@ const HomeCategory = () => {
                     </li>
                     <li>
                         <a href="https://rainbowthemes.net/themes/histudy/course-category/core-functions/?tutor-course-filter-category=188"> Information Technology</a>
+                        <div className="dropDownCategoryList">
+                            <h3 className="rbt-short-title">Category Submenu Items</h3>
+                            <div className="child-inner">
+                                {bitCoinsForms.map((item) => <SubmenuItems key={item.id} name={item.name} src={item.src} />)}
+                            </div>
+                        </div>
+
                     </li>
                     <li>
                         <a href="https://rainbowthemes.net/themes/histudy/course-category/core-functions/?tutor-course-filter-category=188">Personal Development</a>
