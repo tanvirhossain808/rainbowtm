@@ -14,10 +14,6 @@
 
 }
 
-/* .container {
-    max-width: 1320px;
-    margin: 0 auto;
-} */
 
 .topHeader li {
     margin: 2px 7px;
@@ -149,6 +145,9 @@
     transition: .3s;
     visibility: hidden;
     opacity: 0;
+    width: 270px;
+    border-end-start-radius: 10px;
+    box-shadow: var(--shadow-1);
 
 }
 
@@ -228,6 +227,7 @@
     background-color: var(--HeaderAdminBtn);
     gap: 3px;
     cursor: pointer;
+    color: #6b7385;
 }
 
 .middleHeader .middleHeaderContainer {
@@ -515,8 +515,7 @@ header {
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .container {
         margin: 0;
-        width: 100vw;
-        padding-left: 30px;
-        padding-right: 30px;
+        width: calc(100vw - 80px);
+        margin: 0 auto;
     }
 }

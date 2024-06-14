@@ -14,7 +14,10 @@
   --blackOpacity: rgb(0 0 0 / 4%);
   --transition-4: all .25s cubic-bezier(.645, .045, .355, 1);
   --color-body: #6b7385;
-
+  --black-opacity: rgb(0 0 0 / 4%);
+  --shadow-1: 0px 6px 34px rgba(215, 216, 222, 0.41);
+  --colorWhite: #ffffff;
+  --color-border: #e6e3f1;
 }
 
 * {
