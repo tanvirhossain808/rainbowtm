@@ -140,6 +140,24 @@
 
 }
 
+
+.category {
+    position: absolute;
+    top: 105%;
+    padding: 20px;
+    background-color: #fff;
+    transition: .3s;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.headerCategory:hover .category {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
 .topHeaderLan div:hover .iconRotate {
 
     /* animation-name: iconRotate;
@@ -202,7 +220,7 @@
     object-fit: cover;
 }
 
-.headerLogo .categoryBtn {
+.headerLogo .categoryBtn>div:first-child {
     display: flex;
     align-items: center;
     border-radius: 500px;
