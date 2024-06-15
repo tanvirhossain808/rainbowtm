@@ -7,8 +7,21 @@ import { IoGridOutline } from "react-icons/io5";
 import { CiSearch, CiUser } from "react-icons/ci";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import HomeCategory from "../../components/HomeDemo/HomeCategory/HomeCategory";
+import Courses from "../../components/Courses/Courses";
+import { useState } from "react";
 
 const HomeDemo = () => {
+    const [isCourseHovered, setIsCourseHovered] = useState(false)
+
+
+    const coursesHoverIn = () => {
+        !isCourseHovered && setIsCourseHovered(true)
+
+    }
+    const coursesHoverOut = () => {
+        isCourseHovered && setIsCourseHovered(false)
+    }
+
     return (
         <>
             <header>
@@ -126,8 +139,9 @@ const HomeDemo = () => {
                                 <nav>
                                     <ul>
                                         <li className="navHover demosContainer">
-                                            Demos
-                                            <FaChevronDown />
+                                            <a href="/">Demos
+                                                <FaChevronDown />
+                                            </a>
                                             <div className="">
                                                 <div className="thumbNails">
                                                     <div className="thumbNail">
@@ -362,9 +376,16 @@ const HomeDemo = () => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className="navHover">
-                                            Courses
-                                            <FaChevronDown />
+                                        <li className="navHover courseHover" onMouseEnter={coursesHoverIn}
+                                            onMouseLeave={coursesHoverOut}
+                                        >
+                                            <a href="https://rainbowthemes.net/themes/histudy/courses">Courses
+                                                <FaChevronDown />
+                                            </a>
+                                            <div className={`courses ${isCourseHovered ? "expand" : ""}`}
+                                            >
+                                                <Courses />
+                                            </div>
                                         </li>
                                         <li className="navHover">
                                             Pages

@@ -1,0 +1,99 @@
+.coursesContainer {
+    width: 900px;
+    margin: auto;
+    background-color: #FFFFFF;
+    /* height: 500px; */
+}
+
+.coursesContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.coursesContainer .coursesHeroSection {
+    background-image: url("https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-10.webp");
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coursesContainer .courseHeroSectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.coursesContainer .courseHeroSectionContainer h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.coursesContainer .courseHeroSectionContainer .courseHeroSectionTitle {
+    width: 336px;
+}
+
+.coursesContainer .courseHeroSectionContainer p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.coursesContainer .courseContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.coursesMain .courseContainer .courseMenuList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 0;
+}
+
+.coursesMain .courseContainer .courseMenuList ul li {
+    margin: 0 -20px;
+    width: 100%;
+    transition: .3s;
+}
+
+.coursesMain .courseContainer .courseMenuList ul li:hover {
+    color: var(-- --colorPrimary);
+    background-color: var(--black-opacity);
+
+}
+
+.coursesMain {
+    padding: 15px 15px 20px 25px;
+}
+
+.rbt-short-title {
+    font-size: 12px;
+    padding-bottom: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.5;
+    margin-bottom: 6px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.coursesMain .mega-menu-item li a {
+    font-weight: 500;
+    padding: 10px 14px;
+    font-size: 16px;
+    display: block;
+    color: var(--color-body);
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}

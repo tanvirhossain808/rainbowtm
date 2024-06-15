@@ -309,6 +309,11 @@
     animation-fill-mode: forwards;
 }
 
+.headerNavMenu .demosContainer a:visited {
+    color: #192335;
+    display: none;
+}
+
 .middleHeader .middleHeaderRight ul {
     padding-right: 20px;
     gap: 40px;
@@ -328,6 +333,29 @@
 
 }
 
+.courses {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    right: 0;
+    left: 0;
+    top: 100%;
+    width: 900px;
+    max-height: 0;
+    max-height: 0;
+    background-color: red;
+    overflow-y: hidden;
+    transition: max-height 0s ease-in-out;
+    margin: 0 auto
+}
+
+.courseHover .courses.expand {
+    visibility: visible;
+    opacity: 1;
+    max-height: 1000px;
+    transition: max-height .3s ease-in-out;
+}
+
 .middleHeader .headerCourseEnrBtn a {
     display: flex;
     align-items: center;
@@ -338,8 +366,16 @@
     overflow: hidden;
 }
 
-.navHover:hover {
+.navHover>a:first-child {
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.navHover>a:first-child:hover {
     color: var(--colorPrimary);
+    display: flex;
+    align-items: center;
 }
 
 .cartSearch {
@@ -461,48 +497,21 @@
 
 }
 
-/* .thumbNail div a:last-child {
-    transition: 2s;
-
-
-} */
 .demos:hover {
     height: 100%;
-    /* animation: increaseHeight;
-    animation-fill-mode: forwards;
-    animation-duration: .4s; */
 
 }
 
 .thumbNail:hover div a:last-child {
     opacity: 1;
-    /* background-color: red; */
 }
-
-
-/* header:hover .hey {
-    visibility: visible;
-    opacity: 1;
-    animation-name: increaseHeight;
-    animation-duration: .4s;
-    animation-fill-mode: forwards;
-    display: flex;
-    align-items: flex-end;
-
-
-
-} */
-
 
 @keyframes increaseHeight {
     from {
         height: 0%;
-        /* padding: 0%; */
     }
 
     to {
-        /* padding: ; */
-        /* height: 599px; */
         height: 560px;
     }
 }
