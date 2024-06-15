@@ -1,3 +1,4 @@
+import { CiViewList } from "react-icons/ci";
 import "./Courses.css"
 
 const Courses = () => {
@@ -151,6 +152,83 @@ const Courses = () => {
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="e-con-inner">
+                        <div className="elementor-element ">
+                            <div className="elementor" data-id="0d8293f" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div className="elementor-widget-container">
+                                    <a rel="stylesheet" href="https://rainbowthemes.net/themes/histudy/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1718008676">	</a>	<ul className="elementor-icon-list-items">
+                                        <li className="elementor-icon-list-item">
+                                            <a href="https://rainbowthemes.net/themes/histudy/admission-guide">
+
+                                                <span className="elementor-icon-list-icon">
+                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <span className="elementor-icon-list-text"> Quick Start Guide</span>
+                                            </a>
+                                        </li>
+                                        <li className="elementor-icon-list-item">
+                                            <a href="https://rainbowthemes.net/themes/histudy/contact-page/">
+
+                                                <span className="elementor-icon-list-icon">
+                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <span className="elementor-icon-list-text"> API Status</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="elementor-element" data-id="ec998c1" data-element_type="container">
+                            <div className="elementor" data-id="af8a763" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div className="elementor-widget-container">
+                                    <ul className="elementor-icon-list-items">
+                                        <li className="elementor-icon-list-item">
+                                            <a href="https://rainbowthemes.net/themes/histudy/admission-guide">
+
+                                                <span className="elementor-icon-list-icon">
+                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <span className="elementor-icon-list-text"> Quick Start Guide</span>
+                                            </a>
+                                        </li>
+                                        <li className="elementor-icon-list-item">
+                                            <a href="https://rainbowthemes.net/themes/histudy/contact-page/">
+
+                                                <span className="elementor-icon-list-icon">
+                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <span className="elementor-icon-list-text"> API Status</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="elementor-element">
+                            <div className="elementor" data-id="7539887" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div className="elementor-widget-container">
+                                    <ul className="elementor-icon-list-items">
+                                        <li className="elementor-icon-list-item">
+                                            <a href="https://rainbowthemes.net/docs/histudy-wp/">
+
+                                                <span className="elementor-icon-list-icon">
+                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <span className="elementor-icon-list-text">Documentation</span>
+                                            </a>
+                                        </li>
+                                        <li className="elementor-icon-list-item">
+                                            <a href="https://support.rainbowit.net/support/">
+
+                                                <span className="elementor-ico  n-list-icon">
+                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <span className="elementor-icon-list-text">Create a Ticket</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
