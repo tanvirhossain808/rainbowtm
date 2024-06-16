@@ -162,17 +162,13 @@ const Courses = () => {
                                     <a rel="stylesheet" href="https://rainbowthemes.net/themes/histudy/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1718008676">	</a>	<ul className="elementor-icon-list-items">
                                         <li className="elementor-icon-list-item">
                                             <a href="https://rainbowthemes.net/themes/histudy/admission-guide">
-
-                                                <span className="elementor-icon-list-icon">
-                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <CiViewList className="rbt feather-folder-minus" />
                                                 <span className="elementor-icon-list-text"> Quick Start Guide</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
                                             <a href="https://rainbowthemes.net/themes/histudy/contact-page/">
-
-                                                <span className="elementor-icon-list-icon">
-                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <CiViewList className="rbt feather-folder-minus" />
                                                 <span className="elementor-icon-list-text"> API Status</span>
                                             </a>
                                         </li>
@@ -186,17 +182,13 @@ const Courses = () => {
                                     <ul className="elementor-icon-list-items">
                                         <li className="elementor-icon-list-item">
                                             <a href="https://rainbowthemes.net/themes/histudy/admission-guide">
-
-                                                <span className="elementor-icon-list-icon">
-                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <CiViewList className="rbt feather-folder-minus" />
                                                 <span className="elementor-icon-list-text"> Quick Start Guide</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
                                             <a href="https://rainbowthemes.net/themes/histudy/contact-page/">
-
-                                                <span className="elementor-icon-list-icon">
-                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <CiViewList className="rbt feather-folder-minus" />
                                                 <span className="elementor-icon-list-text"> API Status</span>
                                             </a>
                                         </li>
@@ -210,17 +202,13 @@ const Courses = () => {
                                     <ul className="elementor-icon-list-items">
                                         <li className="elementor-icon-list-item">
                                             <a href="https://rainbowthemes.net/docs/histudy-wp/">
-
-                                                <span className="elementor-icon-list-icon">
-                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <CiViewList className="rbt feather-folder-minus" />
                                                 <span className="elementor-icon-list-text">Documentation</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
                                             <a href="https://support.rainbowit.net/support/">
-
-                                                <span className="elementor-ico  n-list-icon">
-                                                    <CiViewList className="rbt feather-folder-minus" />				</span>
+                                                <CiViewList className="rbt feather-folder-minus" />
                                                 <span className="elementor-icon-list-text">Create a Ticket</span>
                                             </a>
                                         </li>
