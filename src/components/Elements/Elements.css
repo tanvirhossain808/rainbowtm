@@ -1,0 +1,78 @@
+.elements .navElements {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 900px;
+}
+
+.navElements .navElementsList {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+}
+
+.navElements .navElementsList .navElementsContainer {
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.navElements .navElementsList .navElementsContainer li {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    padding: 14px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.navElements .navElementsList .navElementsContainer li span {
+    line-height: 20px;
+    height: 20px;
+    padding: 0 10px;
+    border-radius: 100px;
+    background-size: 400% 100%;
+    opacity: .5;
+    font-size: 12px;
+    color: #fff;
+    background: linear-gradient(90deg, var(--colorPrimary) 15%, var(--color-secondary) 45%, var(--color-secondary) 75%, var(--colorPrimary) 100%) 95% / 200% 100%;
+}
+
+.navElements .navElementsList .navElementsContainer li:hover {
+    color: var(--colorPrimary);
+    background-color: var(--blackOpacity);
+}
+
+.visitHestudaTemplate {
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, var(--colorPrimary), var(--color-secondary), var(--color-secondary), var(--colorPrimary));
+    transition: .3s;
+}
+
+.visitHestudaTemplate:hover {
+    background-position: 100% 0;
+    transform: translateY(-5px);
+}
+
+.visitHestudaTemplate button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}

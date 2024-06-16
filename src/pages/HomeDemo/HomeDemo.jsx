@@ -10,6 +10,7 @@ import HomeCategory from "../../components/HomeDemo/HomeCategory/HomeCategory";
 import Courses from "../../components/Courses/Courses";
 import { useState } from "react";
 import PagesNavbar from "../../components/pagesNavbar/PagesNavbar";
+import Elements from "../../components/Elements/Elements";
 
 const HomeDemo = () => {
     const [isCourseHovered, setIsCourseHovered] = useState(false)
@@ -389,15 +390,21 @@ const HomeDemo = () => {
                                             </div>
                                         </li>
                                         <li className="navHover pages">
-                                            Pages
-                                            <FaChevronDown />
+                                            <a href="">
+                                                Pages
+                                                <FaChevronDown />
+                                            </a>
+
                                             <div className="pagesNavbarContainer">
                                                 <PagesNavbar />
                                             </div>
                                         </li>
-                                        <li className="navHover">
-                                            Elements
-                                            <FaChevronDown />
+                                        <li className="navHover elements">
+                                            <a href="">
+                                                Elements
+                                                <FaChevronDown />
+                                            </a>
+                                            <Elements />
                                         </li>
                                         <li className="navHover">
                                             Blog

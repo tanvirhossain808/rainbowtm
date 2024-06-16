@@ -310,8 +310,7 @@
 }
 
 .headerNavMenu .demosContainer a:visited {
-    color: #192335;
-    display: none;
+    /* color: #192335; */
 }
 
 .middleHeader .middleHeaderRight ul {
@@ -372,6 +371,11 @@
     align-items: center;
 }
 
+.navHover {
+    font-size: 15px;
+    color: var(--color-body);
+}
+
 .navHover>a:first-child:hover {
     color: var(--colorPrimary);
     display: flex;
@@ -387,6 +391,22 @@
 }
 
 .navHover.pages:hover .pagesNavbarContainer .pagesNav {
+    visibility: visible;
+    opacity: 1;
+    max-height: 1000px;
+    transition: max-height .3s ease-in-out;
+}
+
+.navHover .navElements {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .0s ease-in-out;
+}
+
+.navHover:hover .navElements {
     visibility: visible;
     opacity: 1;
     max-height: 1000px;
