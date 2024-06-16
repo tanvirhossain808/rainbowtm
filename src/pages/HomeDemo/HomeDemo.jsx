@@ -9,6 +9,7 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 import HomeCategory from "../../components/HomeDemo/HomeCategory/HomeCategory";
 import Courses from "../../components/Courses/Courses";
 import { useState } from "react";
+import PagesNavbar from "../../components/pagesNavbar/PagesNavbar";
 
 const HomeDemo = () => {
     const [isCourseHovered, setIsCourseHovered] = useState(false)
@@ -390,6 +391,9 @@ const HomeDemo = () => {
                                         <li className="navHover">
                                             Pages
                                             <FaChevronDown />
+                                            <div className="pagesNavbarContainer">
+                                                <PagesNavbar />
+                                            </div>
                                         </li>
                                         <li className="navHover">
                                             Elements

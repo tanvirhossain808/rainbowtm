@@ -347,6 +347,7 @@
     overflow-y: hidden;
     transition: max-height 0s ease-in-out;
     margin: 0 auto;
+    /* max-height: 1000px; */
 }
 
 .courseHover .courses.expand {

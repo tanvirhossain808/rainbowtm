@@ -62,6 +62,7 @@
     margin: 0 -20px;
     width: 100%;
     transition: .3s;
+    white-space: nowrap;
 }
 
 .coursesMain .courseContainer .courseMenuList ul li:hover {
