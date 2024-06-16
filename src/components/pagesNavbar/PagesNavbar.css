@@ -4,6 +4,7 @@ nav .pagesNav {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     left: 0;
     top: 100%;
     margin: 0 auto;
@@ -16,6 +17,59 @@ nav .pagesNav .elementor-element ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 0;
+}
+
+nav .pagesNav .elementor-element {
+    overflow: hidden;
+}
+
+nav .pagesNav .elementor-element .nav-category-item {
+    position: relative;
+    padding: 25px 20px;
+    z-index: 1;
+}
+
+nav .pagesNav .elementor-element .nav-category-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+nav .pagesNav .elementor-element .nav-category-item span {
+    z-index: 2;
+    color: var(--color-heading);
+
+}
+
+nav .pagesNav .elementor-element .nav-category-item span:hover {
+    color: var(--color-heading);
+
+}
+
+
+nav .pagesNav .elementor-element .nav-category-item span .featherRight {
+    color: var(--color-heading);
+
+}
+
+nav .pagesNav .elementor-element .nav-category-item a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: inherit;
+}
+
+nav .pagesNav .elementor-element .nav-category-item .featherRight {
+    transition: .3s;
+}
+
+nav .pagesNav .elementor-element .nav-category-item:hover .featherRight {
+    transform: translateX(4px);
 }
 
 nav .pagesNav .elementor-element ul li {
@@ -23,12 +77,20 @@ nav .pagesNav .elementor-element ul li {
     width: 100%;
     transition: .3s;
     color: var(--color-body);
+    border-radius: 4px;
+    font-size: 15px;
 
 }
 
 nav .pagesNav .elementor-element ul li a {
     font-size: 15px;
-    color: inherit;
+    color: var(--color-body);
+
+}
+
+nav .pagesNav .elementor-element ul li:hover a {
+    font-size: 15px;
+    color: var(--color-primary);
 
 }
 

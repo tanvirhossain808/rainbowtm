@@ -1,3 +1,4 @@
+import { MdKeyboardArrowRight } from "react-icons/md";
 import "./PagesNavbar.css"
 const PagesNavbar = () => {
     return (
@@ -157,14 +158,14 @@ const PagesNavbar = () => {
                 </div>
                 <div className="elementor-element elementor-element-f4bb374 e-con-full e-flex e-con e-child" data-id="f4bb374" data-element_type="navPagesContainer">
                     <div className="elementor-element elementor-element-bbf65a7 e-con-full e-flex e-con e-child" data-id="bbf65a7" data-element_type="navPagesContainer">
-                        <div className="elementor-element elementor-element-feb7116 elementor-widget elementor-widget-rbt-nav-heading-icon" data-id="feb7116" data-element_type="widget" data-widget_type="rbt-nav-heading-icon.default">
+                        <div className="elementor-element elementor-element-feb7116 elementor-widget" data-id="feb7116" data-element_type="widget" data-widget_type="rbt-nav-heading-icon.default">
                             <div className="elementor-widget-navPagesContainer">
                                 <div className="nav-category-item">
                                     <div className="thumbnail">
-                                        <div className="image"><img fetchPriority="high" width="550" height="140" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-2.webp" className="attachment-full size-full" alt="category 2" /></div>
+                                        <div className="image"><img fetchPriority="high" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-2.webp" className="attachment-full size-full" alt="category 2" /></div>
                                         <a href="https://rainbowthemes.net/themes/histudy/home-online-course-education/" target="_blank" rel="nofollow">
                                             <span>Online Education</span>
-                                            <i className="feather-chevron-right"></i>
+                                            <MdKeyboardArrowRight className="featherRight" />
                                         </a>
                                     </div>
                                 </div>
@@ -174,10 +175,10 @@ const PagesNavbar = () => {
                             <div className="elementor-widget-navPagesContainer">
                                 <div className="nav-category-item">
                                     <div className="thumbnail">
-                                        <div className="image"><img width="550" height="140" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-1.webp" className="attachment-full size-full" alt="category 1" /></div>
+                                        <div className="image"><img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-1.webp" className="attachment-full size-full" alt="category 1" /></div>
                                         <a href="https://rainbowthemes.net/themes/histudy/home-language-academy/" target="_blank" rel="nofollow">
                                             <span>Language Club</span>
-                                            <i className="feather-chevron-right"></i>
+                                            <MdKeyboardArrowRight className="featherRight" />
                                         </a>
                                     </div>
                                 </div>
@@ -187,10 +188,10 @@ const PagesNavbar = () => {
                             <div className="elementor-widget-navPagesContainer">
                                 <div className="nav-category-item">
                                     <div className="thumbnail">
-                                        <div className="image"><img width="550" height="140" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-4.webp" className="attachment-full size-full" alt="category 4" /></div>
+                                        <div className="image"><img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-4.webp" className="attachment-full size-full" alt="category 4" /></div>
                                         <a href="https://rainbowthemes.net/themes/histudy/home-university-classic/" target="_blank" rel="nofollow">
                                             <span>University Status</span>
-                                            <i className="feather-chevron-right"></i>
+                                            <MdKeyboardArrowRight className="featherRight" />
                                         </a>
                                     </div>
                                 </div>
@@ -203,7 +204,7 @@ const PagesNavbar = () => {
                                         <div className="image"></div>
                                         <a href="https://rainbowthemes.net/themes/histudy/home-online-course-education/" target="_blank" rel="nofollow">
                                             <span>Course School</span>
-                                            <i className="feather-chevron-right"></i>
+                                            <MdKeyboardArrowRight className="featherRight" />
                                         </a>
                                     </div>
                                 </div>
@@ -213,10 +214,10 @@ const PagesNavbar = () => {
                             <div className="elementor-widget-navPagesContainer">
                                 <div className="nav-category-item">
                                     <div className="thumbnail">
-                                        <div className="image"><img loading="lazy" width="550" height="140" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-9.webp" className="attachment-full size-full" alt="category 9" /></div>
+                                        <div className="image"><img loading="lazy" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-9.webp" className="attachment-full size-full" alt="category 9" /></div>
                                         <a href="https://rainbowthemes.net/themes/histudy/home-language-academy/" target="_blank" rel="nofollow">
                                             <span>Academy</span>
-                                            <i className="feather-chevron-right"></i>
+                                            <MdKeyboardArrowRight className="featherRight" />
                                         </a>
                                     </div>
                                 </div>
