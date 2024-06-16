@@ -388,7 +388,7 @@ const HomeDemo = () => {
                                                 <Courses />
                                             </div>
                                         </li>
-                                        <li className="navHover">
+                                        <li className="navHover pages">
                                             Pages
                                             <FaChevronDown />
                                             <div className="pagesNavbarContainer">

@@ -342,7 +342,6 @@
     top: 100%;
     width: 900px;
     max-height: 0;
-    max-height: 0;
     background-color: red;
     overflow-y: hidden;
     transition: max-height 0s ease-in-out;
@@ -377,6 +376,21 @@
     color: var(--colorPrimary);
     display: flex;
     align-items: center;
+}
+
+.navHover.pages .pagesNavbarContainer .pagesNav {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0s;
+    overflow-y: hidden;
+}
+
+.navHover.pages:hover .pagesNavbarContainer .pagesNav {
+    visibility: visible;
+    opacity: 1;
+    max-height: 1000px;
+    transition: max-height .3s ease-in-out;
 }
 
 .cartSearch {
