@@ -1,5 +1,5 @@
-import { MdKeyboardArrowRight } from "react-icons/md";
 import "./PagesNavbar.css"
+import { MdKeyboardArrowRight } from "react-icons/md";
 const PagesNavbar = () => {
     return (
         <nav>

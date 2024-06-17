@@ -1,0 +1,30 @@
+.navElements img {
+    width: 100%;
+    height: 100%;
+}
+
+.navHover .navElements .navElementsList ul {
+    gap: 0;
+    /* height: 1000px; */
+}
+
+.navHover .navElements .navElementsList ul {
+    gap: 0;
+    display: flex;
+
+}
+
+.navHover .navElements .navElementsList ul {
+    gap: 0;
+    height: 100%;
+}
+
+/* .headerNavMenu nav li .navHover .navElements .navElementsList ul {
+    height: auto;
+    display: none;
+} */
+
+.navElements.blogs .navElementsList {
+    /* padding: 0px; */
+    padding-bottom: 25px;
+}

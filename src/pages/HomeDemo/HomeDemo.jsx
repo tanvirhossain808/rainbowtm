@@ -11,6 +11,8 @@ import Courses from "../../components/Courses/Courses";
 import { useState } from "react";
 import PagesNavbar from "../../components/pagesNavbar/PagesNavbar";
 import Elements from "../../components/Elements/Elements";
+import Blog from "../../components/Blog/Blog";
+import Help from "../../components/Help/Help";
 
 const HomeDemo = () => {
     const [isCourseHovered, setIsCourseHovered] = useState(false)
@@ -406,13 +408,24 @@ const HomeDemo = () => {
                                             </a>
                                             <Elements />
                                         </li>
-                                        <li className="navHover">
-                                            Blog
-                                            <FaChevronDown />
+                                        <li className="navHover elements">
+                                            <a href="">
+                                                Blog
+                                                <FaChevronDown />
+                                            </a>
+                                            <div className="blogContainer">
+                                                <Blog />
+                                            </div>
+
                                         </li>
-                                        <li className="navHover">
-                                            Help
-                                            <FaChevronDown />
+                                        <li className="navHover help">
+                                            <a href="">
+                                                Help
+                                                <FaChevronDown />
+                                            </a>
+                                            <div className="HelpContainer">
+                                                <Help />
+                                            </div>
                                         </li>
                                     </ul>
                                 </nav>

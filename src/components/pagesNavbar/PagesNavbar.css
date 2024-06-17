@@ -21,7 +21,7 @@ nav .pagesNav .elementor-element ul {
 }
 
 nav .pagesNav .elementor-element {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav .pagesNav .elementor-element .nav-category-item {
@@ -37,7 +37,6 @@ nav .pagesNav .elementor-element .nav-category-item img {
     top: 0;
     left: 0;
     z-index: -1;
-    height: 100%;
 }
 
 nav .pagesNav .elementor-element .nav-category-item span {

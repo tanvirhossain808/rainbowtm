@@ -1,0 +1,35 @@
+.HelpContainer {
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    min-width: 240px;
+    padding: 12px 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #ffffff;
+    transition: .4s;
+    cursor: default;
+}
+
+.navHover.help .HelpContainer ul {
+    flex-direction: column;
+    gap: 0;
+    /* min-width: 100%; */
+
+}
+
+.HelpContainer ul li {
+    flex-direction: column;
+    width: 90%;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .3s;
+    align-items: flex-start;
+}
+
+.HelpContainer ul li:hover {
+    background-color: var(--black-opacity);
+    color: var(--colorPrimary);
+}
