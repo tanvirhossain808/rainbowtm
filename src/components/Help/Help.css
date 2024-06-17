@@ -1,7 +1,13 @@
+.navHover.help:hover .HelpContainer {
+    visibility: visible;
+    opacity: 1;
+}
+
 .HelpContainer {
     position: absolute;
     top: 100%;
-    /* left: 0; */
+    visibility: hidden;
+    opacity: 0;
     min-width: 240px;
     padding: 12px 0;
     border-radius: 0 0 10px 10px;
@@ -10,10 +16,10 @@
     cursor: default;
 }
 
+
 .navHover.help .HelpContainer ul {
     flex-direction: column;
     gap: 0;
-    /* min-width: 100%; */
 
 }
 

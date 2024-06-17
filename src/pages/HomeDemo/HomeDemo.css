@@ -379,7 +379,8 @@
 .navHover>a:first-child:hover {
     color: var(--colorPrimary);
     display: flex;
-    align-items: center;
+    /* todo */
+    /* align-items: center; */
 }
 
 .navHover.pages .pagesNavbarContainer .pagesNav {
