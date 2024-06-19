@@ -1,7 +1,7 @@
 import "./HomeDemo.css"
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaArrowRight, FaChevronDown, FaFacebookF, FaInstagramSquare, FaPhoneAlt, FaTwitter } from "react-icons/fa";
-import { IoLogoLinkedin } from "react-icons/io";
+import { IoIosMenu, IoLogoLinkedin } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { IoGridOutline } from "react-icons/io5";
 import { CiSearch, CiUser } from "react-icons/ci";
@@ -35,7 +35,7 @@ const HomeDemo = () => {
                             <li>
                                 <a>
                                     <AiOutlineInstagram className="topheaderIcons" />
-                                    <span>100k
+                                    <span className="headerSocialLinks">100k
                                         Followers</span>
                                 </a>
                             </li>
@@ -43,7 +43,7 @@ const HomeDemo = () => {
                                 <a>
                                     <FaFacebookF className="topheaderIcons" />
 
-                                    <span>500k
+                                    <span className="headerSocialLinks">500k
                                         Followers</span>
                                 </a>
                             </li>
@@ -55,10 +55,10 @@ const HomeDemo = () => {
                             </li>
                         </ul>
                         <div className="topHeaderInfo topHeaderMiddleInfo">
-                            <span>
+                            <span className="hot">
                                 Hot
                             </span>
-                            <span>
+                            <span className="handImo">
                                 <img src="https://rainbowit.net/html/histudy/assets/images/icons/hand-emojji.svg" alt="handImage" width={22} />
                                 <span>Intro price. Get Histudy for Big Sale -95% off.</span>
                             </span>
@@ -448,6 +448,9 @@ const HomeDemo = () => {
                                     <a href="https://themeforest.net/checkout/102753572/create_account" target="_blank">
                                         <span>Enroll now</span>
                                     </a>
+                                </div>
+                                <div className="headerNavBtns">
+                                    <IoIosMenu />
                                 </div>
                             </div>
                         </div>

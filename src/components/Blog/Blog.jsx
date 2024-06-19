@@ -42,7 +42,7 @@ const Blog = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="" style={{ width: "100%" }}>
+                <div className="blogImg" style={{ width: "100%" }}>
                     <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/mobile-cat.webp" alt="" />
                 </div>
 

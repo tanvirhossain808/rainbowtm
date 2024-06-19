@@ -20,6 +20,12 @@
   --color-border: #e6e3f1;
   --color-secondary: #b966e7;
   --color-heading: #192335;
+  --color-white-off: #FFFFFFAB;
+
+}
+
+img {
+  width: 100%;
 }
 
 * {

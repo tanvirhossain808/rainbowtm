@@ -33,7 +33,6 @@ const Elements = () => {
                     <li>Progressbar</li>
                     <li>Testimonial</li>
                     <li>Service</li>
-                    <li>Service</li>
                     <li>Split Area</li>
                     <li>Instagram Style</li>
                     <li>Search Style

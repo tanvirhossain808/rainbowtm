@@ -2,6 +2,10 @@
     background-color: #192335;
 }
 
+/* .container {
+    padding: 0 150px;
+} */
+
 .topHeader {
     font-size: 14px;
     display: flex;
@@ -12,6 +16,10 @@
     height: 100%;
     color: var(--fontColor);
 
+}
+
+.topHeaderContainer .topHeader ul:first-child {
+    display: none;
 }
 
 
@@ -34,6 +42,21 @@
     height: 100%;
 }
 
+
+.hot {
+    height: 30px;
+    padding: 0 16px;
+    border-radius: 500px;
+    background-color: var(--colorPrimary);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.handImo img {
+    width: 22px;
+}
+
 .topHeader :first-child li a :first-child {
     margin-right: 10px;
 
@@ -43,6 +66,18 @@
 .topHeaderRightInfo ul {
     display: flex;
     align-items: center;
+}
+
+.topHeaderInfo li {
+    transition: .3s;
+}
+
+.topHeaderInfo li:hover {
+    color: #ffffff;
+}
+
+.topHeaderInfo .headerSocialLinks {
+    display: none;
 }
 
 .topHeaderInfo ul li a {
@@ -136,6 +171,9 @@
 
 }
 
+.HeaderLogoCategoryContainer .headerCategory {
+    display: none;
+}
 
 .category {
     position: absolute;
@@ -289,6 +327,14 @@
     cursor: pointer;
 }
 
+.headerNavMenu {
+    display: none;
+}
+
+.headerCourseEnrBtn {
+    display: none;
+}
+
 .headerNavMenu,
 .headerNavMenu nav,
 .headerNavMenu nav li {
@@ -309,9 +355,6 @@
     animation-fill-mode: forwards;
 }
 
-.headerNavMenu .demosContainer a:visited {
-    /* color: #192335; */
-}
 
 .middleHeader .middleHeaderRight ul {
     padding-right: 20px;
@@ -342,7 +385,7 @@
     width: 900px;
     max-height: 0;
     background-color: red;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     transition: max-height 0s ease-in-out;
     margin: 0 auto;
     /* max-height: 1000px; */
@@ -388,7 +431,7 @@
     opacity: 0;
     max-height: 0;
     transition: max-height 0s;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 .navHover.pages:hover .pagesNavbarContainer .pagesNav {
@@ -403,7 +446,7 @@
     opacity: 0;
     max-height: 0;
     max-height: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: max-height .0s ease-in-out;
 }
 
@@ -430,7 +473,7 @@
 }
 
 .middleHeader .headerCourseEnrBtn span {
-    overflow: hidden;
+    /* overflow: hidden; */
     animation: marquee 2s linear infinite;
     color: var(--navFontColor);
 }
@@ -471,11 +514,11 @@
 .thumbNails {
     margin: 0px 30px;
     display: grid;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: calc(100vw-30px);
     height: 0;
     padding: 40px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 40px;
     grid-template-columns: repeat(6, 1fr);
     gap: 25px;
@@ -557,10 +600,83 @@ header {
     z-index: 400;
 }
 
+@media (min-width: 1200px) {
+    .topHeaderContainer .topHeader ul:first-child {
+        display: flex;
+    }
+
+    .HeaderLogoCategoryContainer .headerCategory {
+        display: block;
+    }
+
+    .headerNavMenu {
+        display: block;
+    }
+
+    .headerNavBtns {
+        display: none;
+    }
+
+    .headerCourseEnrBtn {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .topHeaderInfo {
+        flex-basis: 50%;
+    }
+
+    .topHeaderMiddleInfo {
+        justify-content: flex-start;
+    }
+
+}
+
+
+
+@media (min-width: 1400px) {
+    .topHeaderInfo .headerSocialLinks {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 0 15px;
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .container {
-        margin: 0;
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+    .container {
+        padding: 0 50px;
+        /* margin: 0;
         width: calc(100vw - 80px);
-        margin: 0 auto;
+        margin: 0 auto; */
     }
 }
