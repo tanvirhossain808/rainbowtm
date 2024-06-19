@@ -7,12 +7,15 @@ const WrapperNavCategories = () => {
         <div className="wrapperNavContainer">
             <div className="wrapperResponsive">
                 <div className="categoriesCrossIcon">
-                    <MdCancel />
+                    <button>
+                        <MdCancel />
+                    </button>
                 </div>
                 <ul className="categoriesListResponsiveContainer">
                     <li>
                         <span>
-                            Art & Humanities
+                            <a href=""> Art & Humanities</a>
+
                             <FaMinus />
                             <IoMdAdd />
                         </span>
@@ -36,16 +39,53 @@ const WrapperNavCategories = () => {
                             </ul>
                         </div>
                     </li>
-                    <li>Bitcoin Forums</li>
-                    <li>Cardiovascular Training</li>
-                    <li>Core Functions</li>
-                    <li>Finance & Accounting</li>
-                    <li>Functional Training</li>
-                    <li>Information Technology</li>
-                    <li>Personal Development</li>
-                    <li>Quantum Chemistry</li>
-                    <li>Risk Management</li>
-                    <li>Strength TrainingS</li>
+                    <li> <span>
+                        <a href="">Bitcoin Forums</a>
+                    </span></li>
+                    <li>
+                        <span>
+                            <a href="">Cardiovascular Training</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="">Core Functions</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href=""> Finance & Accounting</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="">Functional Training</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="">Information Technology</a>
+                        </span></li>
+                    <li>
+                        <span>
+                            <a href="">Personal Development</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="">Quantum Chemistry</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="">Risk Management</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="">Strength TrainingS</a>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -4,7 +4,6 @@ import SubmenuItems from "../SubmenuItems/SubmenuItems";
 const HomeCategory = () => {
     return (
         <>
-
             <div className="categoryListContainer">
                 <div className="categoryLists">
                     <ul className="cList">

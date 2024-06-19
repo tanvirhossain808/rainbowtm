@@ -21,11 +21,15 @@
   --color-secondary: #b966e7;
   --color-heading: #192335;
   --color-white-off: #FFFFFFAB;
-
+  --primary-opacity: #2f57ef21
 }
 
 img {
   width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
 
 * {
