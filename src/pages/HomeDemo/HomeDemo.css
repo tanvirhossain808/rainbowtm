@@ -171,7 +171,7 @@
 
 }
 
-.HeaderLogoCategoryContainer .headerCategory {
+.middleHeader .HeaderLogoCategoryContainer .headerCategory div:first-child {
     display: none;
 }
 
@@ -304,6 +304,10 @@
 
 .navhvr:hover {
     color: var(--colorPrimary);
+}
+
+.middleHeader .middleHeaderRight .rightSection {
+    gap: 0;
 }
 
 .middleHeader .headerCourseEnrBtn {
@@ -605,8 +609,16 @@ header {
         display: flex;
     }
 
-    .HeaderLogoCategoryContainer .headerCategory {
+    .middleHeader .HeaderLogoCategoryContainer .headerCategory div:first-child {
         display: block;
+    }
+
+    /* .HeaderLogoCategoryContainer .headerCategory:last-child {
+        display: none;
+    } */
+
+    .HeaderLogoCategoryContainer .headerCategory div:nth-child(2) {
+        display: none;
     }
 
     .headerNavMenu {

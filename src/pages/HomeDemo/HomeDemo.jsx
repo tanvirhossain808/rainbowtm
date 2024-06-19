@@ -17,7 +17,7 @@ import Help from "../../components/Help/Help";
 const HomeDemo = () => {
     const [isCourseHovered, setIsCourseHovered] = useState(false)
 
-
+    console.log(isCourseHovered)
     const coursesHoverIn = () => {
         !isCourseHovered && setIsCourseHovered(true)
 
@@ -131,6 +131,9 @@ const HomeDemo = () => {
                                         <div className="categoryContainer">
                                             <IoGridOutline />
                                             <span>Category</span>
+                                        </div>
+                                        <div>
+                                            <IoGridOutline />
                                         </div>
                                         <div className="category">
                                             <HomeCategory />
@@ -431,7 +434,7 @@ const HomeDemo = () => {
                                 </nav>
                             </div>
                             <div className="middleHeaderRight">
-                                <ul>
+                                <ul className="rightSection">
                                     <li className="cartSearch">
                                         <CiSearch />
                                     </li>
