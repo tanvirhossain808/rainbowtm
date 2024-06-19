@@ -1,5 +1,5 @@
-import { CiViewList } from "react-icons/ci";
 import "./Courses.css"
+import { CiViewList } from "react-icons/ci";
 
 const Courses = () => {
     return (

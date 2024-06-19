@@ -171,8 +171,12 @@
 
 }
 
-.middleHeader .HeaderLogoCategoryContainer .headerCategory div:first-child {
+.middleHeader .HeaderLogoCategoryContainer .headerCategory {
     display: none;
+}
+
+.responsiveWrapperCategories {
+    display: block;
 }
 
 .category {
@@ -357,6 +361,7 @@
     animation-name: increaseHeight;
     animation-duration: .3s;
     animation-fill-mode: forwards;
+    overflow: hidden;
 }
 
 
@@ -389,17 +394,17 @@
     width: 900px;
     max-height: 0;
     background-color: red;
-    /* overflow-y: hidden; */
     transition: max-height 0s ease-in-out;
     margin: 0 auto;
+    overflow: hidden;
     /* max-height: 1000px; */
 }
 
 .courseHover .courses.expand {
     visibility: visible;
     opacity: 1;
-    max-height: 1000px;
     transition: max-height .3s ease-in-out;
+    max-height: 1000px;
 }
 
 .middleHeader .headerCourseEnrBtn a {
@@ -416,6 +421,7 @@
     color: inherit;
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .navHover {
@@ -430,19 +436,28 @@
     /* align-items: center; */
 }
 
-.navHover.pages .pagesNavbarContainer .pagesNav {
-    visibility: hidden;
-    opacity: 0;
-    max-height: 0;
-    transition: max-height 0s;
-    /* overflow-y: hidden; */
+
+.navHover.pages .pagesNavbarContainer {
+    /* height: auto; */
+    overflow: hidden;
+
 }
 
-.navHover.pages:hover .pagesNavbarContainer .pagesNav {
+.navHover.pages .pagesNavbarContainer nav {
+    visibility: hidden;
+    opacity: 0;
+    /* max-height: 40; */
+    max-height: 0;
+    transition: max-height 0s;
+
+}
+
+.navHover.pages:hover .pagesNavbarContainer nav {
     visibility: visible;
     opacity: 1;
     max-height: 1000px;
-    transition: max-height .3s ease-in-out;
+    transition: max-height .3s;
+    overflow: hidden;
 }
 
 .navHover .navElements {
@@ -450,7 +465,7 @@
     opacity: 0;
     max-height: 0;
     max-height: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     transition: max-height .0s ease-in-out;
 }
 
@@ -582,6 +597,7 @@
 
 .demos:hover {
     height: 100%;
+    /* overflow: hidden; */
 
 }
 
@@ -609,17 +625,21 @@ header {
         display: flex;
     }
 
-    .middleHeader .HeaderLogoCategoryContainer .headerCategory div:first-child {
+    .middleHeader .HeaderLogoCategoryContainer .headerCategory {
         display: block;
     }
 
-    /* .HeaderLogoCategoryContainer .headerCategory:last-child {
-        display: none;
-    } */
-
-    .HeaderLogoCategoryContainer .headerCategory div:nth-child(2) {
+    .responsiveWrapperCategories {
         display: none;
     }
+
+    /* .middleHeader .HeaderLogoCategoryContainer .headerCategory div:first-child {
+        display: flex;
+    } */
+
+    /* .HeaderLogoCategoryContainer .headerCategory div:nth-child(2) {
+        display: none;
+    } */
 
     .headerNavMenu {
         display: block;
@@ -687,8 +707,5 @@ header {
 @media only screen and (min-width: 1600px) and (max-width: 1919px) {
     .container {
         padding: 0 50px;
-        /* margin: 0;
-        width: calc(100vw - 80px);
-        margin: 0 auto; */
     }
 }

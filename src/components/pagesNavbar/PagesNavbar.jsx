@@ -2,7 +2,7 @@ import "./PagesNavbar.css"
 import { MdKeyboardArrowRight } from "react-icons/md";
 const PagesNavbar = () => {
     return (
-        <nav>
+        <nav className="container">
             <div className="pagesNav">
                 <div className="elementor-element elementor-element-043c1f0" data-id="043c1f0" data-element_type="navPagesContainer">
                     <div className="elementor-element elementor-element-2a7bc3f elementor-widget elementor-widget-rbt-custom-menu" data-id="2a7bc3f" data-element_type="widget" data-widget_type="rbt-custom-menu.default">
