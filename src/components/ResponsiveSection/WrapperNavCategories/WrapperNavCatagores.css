@@ -44,8 +44,10 @@ categoriesListResponsiveContainer li span a:active {
 }
 
 
-.wrapperNavContainer .wrapperResponsive .categoriesListResponsiveContainer li span a:hover {
+.wrapperNavContainer .wrapperResponsive .categoriesListResponsiveContainer li span a:hover,
+.subAddCanIcons:hover {
     color: var(--colorPrimary);
+    cursor: pointer;
 
 }
 
@@ -75,6 +77,33 @@ categoriesListResponsiveContainer li span a:active {
     border: 1px solid var(--colorPrimary);
     background-color: #F6F6F6;
 
+}
+
+
+.wrapperNavContainer .responsiveSubCategory {
+    overflow: hidden;
+    transition: 3s;
+    max-height: 0px;
+    transition: max-height .5s ease-in-out;
+}
+
+.wrapperNavContainer .responsiveSubCategory.active {
+    max-height: 1000px;
+    transition: max-height .5s ease-in-out;
+}
+
+.wrapperNavContainer .responsiveSubCategory ul {
+    padding-left: 14px;
+}
+
+.wrapperNavContainer .responsiveSubCategory li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--primary-opacity);
+}
+
+.wrapperNavContainer .responsiveSubCategory li:hover {
+    color: var(--colorPrimary);
+    cursor: pointer;
 }
 
 @media (min-width:1200px) {

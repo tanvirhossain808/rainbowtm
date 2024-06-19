@@ -2,7 +2,14 @@ import "./WrapperNavCatagores.css"
 import { MdCancel } from "react-icons/md";
 import { FaMinus } from "react-icons/fa";
 import { IoMdAdd } from "react-icons/io";
+import { useState } from "react";
 const WrapperNavCategories = () => {
+    const [isShowSubCategory, setShowSubCategory] = useState(false)
+    const showSubCategory = (e) => {
+        e.preventDefault()
+        setShowSubCategory(!isShowSubCategory)
+    }
+
     return (
         <div className="wrapperNavContainer">
             <div className="wrapperResponsive">
@@ -14,12 +21,16 @@ const WrapperNavCategories = () => {
                 <ul className="categoriesListResponsiveContainer">
                     <li>
                         <span>
-                            <a href=""> Art & Humanities</a>
+                            <a href="" onClick={(e) => showSubCategory(e)
 
-                            <FaMinus />
-                            <IoMdAdd />
+                            }> Art & Humanities</a>
+                            {
+                                isShowSubCategory ? <FaMinus className="subAddCanIcons" onClick={() => setShowSubCategory(false)} /> : <IoMdAdd className="subAddCanIcons" onClick={() => setShowSubCategory(true)} />
+                            }
+
+
                         </span>
-                        <div className="responsiveSubCategory">
+                        <div className={`${isShowSubCategory && "active"} responsiveSubCategory `}>
                             <ul>
                                 <li>Dance</li>
                                 <li>Drama</li>
