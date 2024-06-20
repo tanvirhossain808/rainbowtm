@@ -162,7 +162,7 @@ const PagesNavbar = () => {
                             <div className="elementor-widget-navPagesContainer">
                                 <div className="nav-category-item">
                                     <div className="thumbnail">
-                                        <div className="image"><img fetchPriority="high" src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-2.webp" className="attachment-full size-full" alt="category 2" /></div>
+                                        <div className="image"><img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2023/12/category-2.webp" className="attachment-full size-full" alt="category 2" /></div>
                                         <a href="https://rainbowthemes.net/themes/histudy/home-online-course-education/" target="_blank" rel="nofollow">
                                             <span>Online Education</span>
                                             <MdKeyboardArrowRight className="featherRight" />

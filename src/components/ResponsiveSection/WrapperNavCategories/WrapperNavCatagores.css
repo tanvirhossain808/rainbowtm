@@ -36,6 +36,12 @@
     color: var(--colorPrimary);
     padding: 8px 0;
     display: block;
+
+}
+
+.wrapperNavContainer .wrapperResponsive .categoriesListResponsiveContainer li {
+    border-bottom: 1px solid var(--primary-opacity);
+
 }
 
 .wrapperNavContainer .wrapperResponsive .categoriesListResponsiveContainer li span a:visited,
@@ -109,5 +115,18 @@ categoriesListResponsiveContainer li span a:active {
 @media (min-width:1200px) {
     .responsiveWrapper {
         display: none;
+    }
+}
+
+.wrapperNavContainer {
+    /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 575px) {
+    .wrapperNavContainer .wrapperResponsive {
+        height: 100%;
+        width: 300px;
+        padding: 40px 20px;
+        transition: all 0.5s ease-out;
     }
 }
