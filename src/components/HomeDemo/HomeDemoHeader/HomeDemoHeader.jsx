@@ -17,6 +17,7 @@ import WrapperNavCategories from "../../ResponsiveSection/WrapperNavCategories/W
 
 
 const HomeDemoHeader = () => {
+    const [showActiveWrapper, setShowActiveWrapper] = useState(false)
     const [isCourseHovered, setIsCourseHovered] = useState(false)
 
     const coursesHoverIn = () => {
@@ -30,7 +31,7 @@ const HomeDemoHeader = () => {
         <header>
 
             <div className="responsiveWrapper">
-                <WrapperNavCategories />
+                <WrapperNavCategories showSidebar={showActiveWrapper} setShowSidebar={setShowActiveWrapper} />
             </div>
             <div className="topHeaderContainer">
                 <div className="topHeader container">
@@ -139,7 +140,7 @@ const HomeDemoHeader = () => {
                                         <HomeCategory />
                                     </div>
                                 </div>
-                                <div className="responsiveWrapperCategories">
+                                <div className="responsiveWrapperCategories" onClick={() => setShowActiveWrapper(true)}>
                                     <IoGridOutline />
                                 </div>
                             </div>

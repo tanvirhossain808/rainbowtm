@@ -13,10 +13,18 @@
     font-size: 16px;
     font-weight: 500;
     color: var(--color-heading);
+    opacity: 0;
+    visibility: hidden;
 
 }
 
+.wrapperNacContainerActive {
+    opacity: 1;
+    visibility: visible;
+}
+
 .wrapperNavContainer .wrapperResponsive {
+    position: relative;
     width: 400px;
     height: 100%;
     background-color: #FFFFFF;
@@ -24,7 +32,12 @@
     flex-direction: column;
     padding: 60px 50px;
     transition: all 0.5s ease-out;
-    overflow-y: scroll;
+    overflow-y: auto;
+    left: -410px;
+}
+
+.wrapperNavContainer .wrapperActive {
+    left: 0px;
 }
 
 .wrapperNavContainer .wrapperResponsive .categoriesListResponsiveContainer li span {

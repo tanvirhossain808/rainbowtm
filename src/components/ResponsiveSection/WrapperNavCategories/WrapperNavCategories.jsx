@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
 import "./WrapperNavCatagores.css"
 import { MdCancel } from "react-icons/md";
 import { FaMinus } from "react-icons/fa";
 import { IoMdAdd } from "react-icons/io";
 import { useRef, useState } from "react";
-const WrapperNavCategories = () => {
+const WrapperNavCategories = ({ showSidebar, setShowSidebar }) => {
+
     const [isShowSubCategory, setShowSubCategory] = useState({
         ["Art & Humanities"]: false,
         ["Bitcoin Forums"]: false,
@@ -47,10 +49,10 @@ const WrapperNavCategories = () => {
     }
 
     return (
-        <div className="wrapperNavContainer">
-            <div className="wrapperResponsive">
+        <div className={`wrapperNavContainer ${showSidebar && "wrapperNacContainerActive"}`}>
+            <div className={`wrapperResponsive ${showSidebar && "wrapperActive"}`}>
                 <div className="categoriesCrossIcon">
-                    <button>
+                    <button onClick={() => setShowSidebar(false)}>
                         <MdCancel />
                     </button>
                 </div>
